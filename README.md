@@ -8,6 +8,8 @@ Consultancy site aimed at supporting customers through their bariatric surgery j
 
 * [User Experience](#user-experience-ux)
   * [User Stories](#user-stories)
+    * [New Users](#new-users)
+    * [Experienced Users](#experienced-users)
 
 * [Design](#design)
   * [Colour Scheme](#colour-scheme)
@@ -44,11 +46,32 @@ Consultancy site aimed at supporting customers through their bariatric surgery j
 
 ### User Stories
 
+#### New Users:
 
+The site is aimed towards new users who wish to learn more about the services offered for support before, during, and after their bariatric surgery. It is is going to be a single page application with a minimalist design to allow ease of navigation. 
 
 The user should be able to:
 
-* 
+* Navigate through the content of the site either by scrolling down the page, or clicking on the links on the navigation bar.
+* Read about the procedure itsself, as well as the services offered by the consultancy firm.
+* Choose a service and pay for it, which will lead to a PSP (probably Stripe or Lemon Squeezy).
+* Upon completion of payment, the user will be directed to the calendar booking system (probably Calendly) ** (this may be reversed depending on the Stripe/Calendly functionality that needs researching, if it's simpler to have a user book an appointment first and then pay)
+
+#### Experienced Users:
+
+Once a user has purchased any plan from the site, they will have an account created with the email address used to make the payment.
+
+The user should be able to:
+
+* Log in to their account using their email address and password
+* Request a password change via "Forgot your password?" on the login screen
+
+On their customer profile:
+
+* View the plan/s they have purchased
+* View and update their personal information (phone number, contact email, password). (Name, account name aka login email will remain the same)
+* Click on a plan to see further information such as meal plans
+* Download content such as meal plans, recipes, shopping lists (may come under Future Implementations)
 
 ## Design
 
@@ -74,7 +97,7 @@ The user should be able to:
 
 ### Future Implementations
 
-
+Thinking ahead, once a user has paid and they are redirected to the calendly booking system, if the user doesn't immediately book the appointment and navigates away from the page, they'll loose the booking page. First iteration will include an FAQ which will tell the user to contact customer service for assistance. In the future I want to add a booking link to the user's personal page. Perhaps Calendly can send an email so the user can book at their convenience, I haven't checked yet.
 
 ### Accessibility
 

@@ -77,10 +77,17 @@ On their customer profile:
 
 ### Colour Scheme
 
+The consultant wanted something simple that wouldn't distract from the content, and would bring a sense of calm and enhance the feeling that this was a health-related webpage. I am aiming for some green, blue and beige shades, starting with the palette below: 
 
+![bariatric-consulting colour palette](https://github.com/emmy-codes/bariatric-support-consulting/assets/70635859/3fc88c9a-455b-40d9-bb5c-5d3567fbf35e)
 
 ### Typography
 
+I found [this article](https://www.thedenizenco.com/journal/8-free-fonts-for-the-wellness-brand) when researching for fonts for health related websites. The font felt well-spaced for easier reading, and I could imagine the company text feeling relaxed and welcoming. The italic version looked great for quotes from future customers.
+
+![regular400](https://github.com/emmy-codes/bariatric-support-consulting/assets/70635859/967b016f-e1b4-478f-81ed-4fc93685b284)
+![bold700](https://github.com/emmy-codes/bariatric-support-consulting/assets/70635859/ce8fa2db-f317-4d69-9381-8c386bb63c1e)
+![light300italic](https://github.com/emmy-codes/bariatric-support-consulting/assets/70635859/46a756e4-f017-48cb-8448-2dd723bc4c56)
 
 
 ### Imagery

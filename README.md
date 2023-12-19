@@ -92,6 +92,18 @@ I found [this article](https://www.thedenizenco.com/journal/8-free-fonts-for-the
 
 ### Imagery
 
+I wanted to use images containing fresh, simple and healthy ingredients, whilst avoiding imagery with too much food on it since the site is for people who will not be able to eat much at each meal. This is to help the users to relate to the content and feel more confident to buy the services.
+
+![header idea background](https://github.com/emmy-codes/bariatric-support-consulting/assets/70635859/53e0d875-d2b3-4ea0-8b43-de7c8fc61305)
+![rsz_1rsz_1rsz_pexels-the-lazy-artist-gallery-1332313](https://github.com/emmy-codes/bariatric-support-consulting/assets/70635859/b9d01bd3-77c9-43cc-a829-e5a6ec89a0e1)
+
+
+Some images are designed to work as backgrounds on the page so they can have text or purchase sections in the foreground:
+
+![rsz_1rsz_1rsz_1pexels-pixelme-stock-photography-2818656](https://github.com/emmy-codes/bariatric-support-consulting/assets/70635859/ec7e4356-5d71-46d1-a89d-e424002553b0)
+![rsz_1rsz_1pexels-lukas-616401](https://github.com/emmy-codes/bariatric-support-consulting/assets/70635859/92c84ff8-b5eb-46bf-bc99-36ec4559a95c)
+![rsz_2rsz_11rsz_pexels-ella-olsson-1640773](https://github.com/emmy-codes/bariatric-support-consulting/assets/70635859/c598135d-6586-465d-9ac0-ee19756f86a9)
+
 
 
 ### Wireframes
@@ -128,9 +140,15 @@ Thinking ahead, once a user has paid and they are redirected to the calendly boo
 
 [VS Code](https://code.visualstudio.com/) - For writing my code.
 
+[Google Fonts](https://fonts.google.com/) - For finding a replacement font that everyone would have access to.
+
 [Coolors](https://coolors.co/) - Used to collect the hexcode colour palette.
 
+[Convertico.co](https://convertio.co/) - For converting images to webp.
+
 [Picresize](https://picresize.com/) - Used to resize images.
+
+[Pexels](https://www.pexels.com/) - Collecting free stock images for website.
 
 ## Deployment & Local Development
 

@@ -147,6 +147,8 @@ Thinking ahead, once a user has paid and they are redirected to the calendly boo
 
 [Balsamiq](https://balsamiq.com/) - For creating my wireframes.
 
+[Mycolor](https://mycolor.space/) - To generate a colour palette.
+
 [Am I Responsive](https://ui.dev/amiresponsive) - To retrieve good screenshots of responsiveness across devices.
 
 [Github](https://github.com/) - For online storage of code and deployment.
@@ -154,8 +156,6 @@ Thinking ahead, once a user has paid and they are redirected to the calendly boo
 [VS Code](https://code.visualstudio.com/) - For writing my code.
 
 [Google Fonts](https://fonts.google.com/) - For finding a replacement font that everyone would have access to.
-
-[Coolors](https://coolors.co/) - Used to collect the hexcode colour palette.
 
 [Convertico.co](https://convertio.co/) - For converting images to webp.
 

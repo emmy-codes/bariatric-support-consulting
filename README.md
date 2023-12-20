@@ -97,7 +97,6 @@ I wanted to use images containing fresh, simple and healthy ingredients, whilst 
 ![header idea background](https://github.com/emmy-codes/bariatric-support-consulting/assets/70635859/53e0d875-d2b3-4ea0-8b43-de7c8fc61305)
 ![rsz_1rsz_1rsz_pexels-the-lazy-artist-gallery-1332313](https://github.com/emmy-codes/bariatric-support-consulting/assets/70635859/b9d01bd3-77c9-43cc-a829-e5a6ec89a0e1)
 
-
 Some images are designed to work as backgrounds on the page so they can have text or purchase sections in the foreground:
 
 ![rsz_1rsz_1rsz_1pexels-pixelme-stock-photography-2818656](https://github.com/emmy-codes/bariatric-support-consulting/assets/70635859/ec7e4356-5d71-46d1-a89d-e424002553b0)
@@ -112,6 +111,20 @@ Some images are designed to work as backgrounds on the page so they can have tex
 
 ## Features
 
+There will be several pages to the site:
+
+1. Homepage, which will consist of a few sections describing the consultant and her journey, along with before and after photos of her progress. Then there will be a section detailing the service/s she will be offering, as well as their cost. Finally there will be CTAs for any service packages we create.
+2. Next will be an FAQ section where the questions will come in dropdown format: you will see each question, and then clicking on it will open up the part that shows the answer.
+* ![ytfaq](https://github.com/emmy-codes/bariatric-support-consulting/assets/70635859/e667f182-8873-4231-a3cb-52d88d082b15)
+* ![ytfaqclicked](https://github.com/emmy-codes/bariatric-support-consulting/assets/70635859/66178b5b-28a3-42a6-b842-04dcfc314959)
+3. A contact page with a form that will connect to an email account of the consultant's, as well as the direct email address, and any social media links.
+4. Customer login page - if a customer has ordered a package/service they will receive an email with login details and thus have access to content on the website that is unique to them. Here the customer will be able to log in with their personal info or reset their password if needed.
+5. Customer profile page - authenticated: once the user has validated themselves they will be able to see their customer page with basic details about their account that are relevant to their health program (such as their unique user ID, name, email, age & gender((which matter when it comes to planning nutrition as we metabolize things differently), dietary requirements, as well as any meal plans that have been purchased. Below is an estimation of how the data that will be stored in the backend, and which fields will be shown to the user.
+* ![user_table](https://github.com/emmy-codes/bariatric-support-consulting/assets/70635859/afb1a73f-91bb-4d41-b292-baece095e59c)
+7. Inside each meal plan will be title of the plan, a description, the user ID which connects the plan to the unique user (user_id on the MealPlan table is the same as the id on the User Table), as well as duration of the plan in days.
+* ![meal_plan_table](https://github.com/emmy-codes/bariatric-support-consulting/assets/70635859/94c08579-181b-45df-ad48-6d3c758c9ce6)
+8. Finally there will be a recipe table containing the name of the recipe, day the recipe is for (ie meal plan day 3), meal type (breakfast, lunch, dinner, snack), an image of the food (path, I do not plan on implementing image upload to the database in this or near future iterations), and the faithful user_id to connect the recipe table to the meal plan.
+* ![recipe table](https://github.com/emmy-codes/bariatric-support-consulting/assets/70635859/47cf35d5-df87-4288-9c41-d46440afdca4)
 
 
 ### Future Implementations

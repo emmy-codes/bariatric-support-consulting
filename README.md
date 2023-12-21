@@ -107,6 +107,9 @@ Some images are designed to work as backgrounds on the page so they can have tex
 
 ### Wireframes
 
+Here comes the first idea/iteration of the desktop layout:
+
+![landing_page_wireframe](https://github.com/emmy-codes/bariatric-support-consulting/assets/70635859/9979e16d-631a-4b95-8000-9694f12ccb43)
 
 
 ## Features

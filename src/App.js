@@ -1,6 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from '../src/Components/Navbar';
+import Navigation from '../src/Components/Navigation';
 import HamburgerMenu from '../src/Components/HamburgerMenu';
 import Home from '../src/Components/Home';
 import About from '../src/Components/About';
@@ -15,7 +15,7 @@ import Footer from '../src/Components/Footer';
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Navigation />
       <HamburgerMenu />
       <Home />
       <About />

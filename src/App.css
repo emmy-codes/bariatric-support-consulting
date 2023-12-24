@@ -22,7 +22,15 @@
 }
 
 .about-container {
-  background-color: grey;
+  background-color: rgb(244, 225, 177);
+}
+
+.about-col1 {
+  background-color: aqua;
+}
+
+.about-col2 {
+  background-color: rgb(189, 102, 185);
 }
 
 .my-services-container {

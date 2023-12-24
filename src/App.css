@@ -16,7 +16,9 @@
 /* Websites sections */
 
 .home-container {
-  background-color: lightgreen;
+  background: url("./media/images/header.jpg");
+  height: 25%;
+  width: 100%;
 }
 
 .about-container {

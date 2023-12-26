@@ -229,6 +229,10 @@ To clone the repository, there are a few quick steps.
 
 [Grammarly](https://app.grammarly.com/) - Used to adjust some grammatical inaccuracies.
 
+[Bootstrap Documentation](https://getbootstrap.com/docs/5.3/customize/sass/) - Used to navigate use of BS styles and layout.
+
+[React Bootstrap Documentation](https://react-bootstrap.netlify.app/docs/components/accordion) - Used for guidance in adding and manipulating React BS components.
+
 ### Code
 
 

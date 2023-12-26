@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -15,10 +20,23 @@
 
 /* Websites sections */
 
+.home-header {
+  font-weight: 700;
+  padding-left: 30px;
+  color: #71B2DE;
+}
+
 .home-container {
-  background: url("./media/images/header.jpg");
-  height: 25%;
-  width: 100%;
+  background-color: rgb(238, 236, 237);
+}
+
+.home-text {
+  padding: 20px 50px;
+    margin: auto;
+}
+
+.row>* {
+  padding: 0;
 }
 
 .about-container {

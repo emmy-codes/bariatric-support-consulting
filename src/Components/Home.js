@@ -1,13 +1,23 @@
-import { Button } from "react-bootstrap";
+import { Button, Row, Col, Container } from "react-bootstrap";
+import banner from "../media/images/header.jpg"
 
-function Home() {    
+function Home() {
 
     return (
-        <div className="home-container">
-            <h1>Welcome to Bari-transform</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque velit nulla, dapibus eget enim sed, cursus eleifend tortor. Sed ornare nunc sed elementum pulvinar. Nunc massa est, fringilla id laoreet quis, ornare sed lacus.</p>
-            <Button>Learn More</Button>
-        </div>
+        <Container>
+            <Row>
+                <Col className="home-container">
+                    <h1 className="home-header">Welcome to Bari-transform</h1>
+                    <p className="home-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Quisque velit nulla, dapibus eget enim sed, cursus eleifend tortor.
+                        Sed ornare nunc sed elementum pulvinar. Nunc massa est, fringilla id laoreet quis, ornare sed lacus.</p>
+                    <Button>Learn More</Button>
+                </Col>
+                <Col>
+                    <img src={banner} className="img-fluid" alt="a fruit platter with citrus fruits and berries"/>
+                </Col>
+            </Row>
+        </Container >
     );
 };
 

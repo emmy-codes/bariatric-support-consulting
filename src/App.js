@@ -1,5 +1,5 @@
+import 'bootstrap/dist/css/bootstrap.min.css'; 
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from '../src/Components/Navigation';
 import HamburgerMenu from '../src/Components/HamburgerMenu';
 import Home from '../src/Components/Home';

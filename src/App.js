@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css'; 
-import './App.css';
+import './App.scss';
 import Navigation from '../src/Components/Navigation';
 import HamburgerMenu from '../src/Components/HamburgerMenu';
 import Home from '../src/Components/Home';
@@ -14,7 +14,7 @@ import Footer from '../src/Components/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <section className="App">
       <Navigation />
       <HamburgerMenu />
       <Home />
@@ -25,7 +25,7 @@ function App() {
       <Order />
       <FAQ />
       <Footer />
-    </div>
+    </section>
   );
 }
 

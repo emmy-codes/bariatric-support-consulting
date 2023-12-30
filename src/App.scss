@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Navbar for desktop and hamburger menu for tablet and phone */
+
+.navbar-container {
+  background-color: antiquewhite;
+}
+
+.hamburger-menu {
+  background-color: black;
+  color: white;
+}
+
+/* Websites sections */
+
+.home-header {
+  font-weight: 700;
+  color: #71B2DE;
+}
+
+.home-container {
+  background-color: rgb(238, 236, 237);
+}
+
+.home-text {
+  padding: 20px 50px;
+    margin: auto;
+}
+
+.row>* {
+  padding: 0;
+}
+
+.about-container {
+  background-color: rgb(244, 225, 177);
+}
+
+.about-col1 {
+  background-color: aqua;
+}
+
+.about-col2 {
+  background-color: rgb(189, 102, 185);
+}
+
+.about-col3 {
+  background-color: rgb(117, 110, 233);
+}
+
+.about-col4 {
+  background-color: rgb(152, 229, 148);
+}
+
+.my-services-container {
+  background-color: powderblue;
+}
+
+.my-mission-container {
+  background-color: lightpink;
+}
+
+.footer-container {
+  background-color: rgb(101, 101, 212);
+}
+
+/* CTA and order buttons */
+
+.cta-button {
+  background-color: green;
+}
+
+.order-button {
+  background-color: green;
+}

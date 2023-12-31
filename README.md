@@ -219,6 +219,15 @@ To clone the repository, there are a few quick steps.
 
 ### Bug fixes 
 
+There have been some struggles in trying to get both React and Bootstrap working simultaneously and I tried to update the NPM installed App.css file to scss so I would have better control over overriding BS styles. Following the tutorial on [Bootstrap's Documentation](https://getbootstrap.com/docs/5.3/customize/sass/) eventually lead me to an error after following all of the steps. These steps are set up purely from a Bootstrap perspective and I believe they were not complete enough for the React project. 
+
+![rsz_1compile-error-sass-install](https://github.com/emmy-codes/bariatric-support-consulting/assets/70635859/32d28385-b70d-4cc8-a000-90692393728f)
+
+This might not be a heroic answer, but rather than falling down a rabbit hole of forums trying to piece together what I needed between the documentation I followed, and my React project, I took a chance and posted the error into ChatGPT.
+
+The answer was a simple NPM install (although it was kind enough to provide me with a 6 step process to follow to be thorough). This felt like a fantastic way to utilise a tool that helps coders, especially juniors, in a way that doesn't impact my ability to learn programming. Could I have reached the same conclusion on my own, without asking anyone for help? Maybe, maybe not. But I had already checked the root directory in my VSCode looking at the source of the error, and still not having any idea how to fix this. It certainly wouldn't have come to me randomly.
+
+![rsz_compile-error-fix-chatgpt](https://github.com/emmy-codes/bariatric-support-consulting/assets/70635859/ad422ea2-135e-4575-8f45-9276efd27bca)
 
 
 ## Retro
@@ -228,6 +237,10 @@ To clone the repository, there are a few quick steps.
 ## Credits
 
 [Grammarly](https://app.grammarly.com/) - Used to adjust some grammatical inaccuracies.
+
+[Bootstrap Documentation](https://getbootstrap.com/docs/5.3/) - Used to navigate use of BS styles and layout.
+
+[React Bootstrap Documentation](https://react-bootstrap.netlify.app/docs/components/accordion) - Used for guidance in adding and manipulating React BS components.
 
 ### Code
 

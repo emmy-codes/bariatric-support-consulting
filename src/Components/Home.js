@@ -4,7 +4,7 @@ import banner from "../media/images/header.jpg"
 function Home() {
 
     return (
-            <div>
+            <div className="home-container-wrapper">
                 <div className="home-container">
                     <h1 className="home-header">Welcome to Bari-transform</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -12,9 +12,9 @@ function Home() {
                         Sed ornare nunc sed elementum pulvinar. Nunc massa est, fringilla id laoreet quis, ornare sed lacus.</p>
                     <button>Learn More</button>
                 </div>
-                <div>
+                {/* <div>
                     <img src={banner} className="img-fluid" alt="a fruit platter with citrus fruits and berries"/>
-                </div>
+                </div> */}
             </div>
     );
 };

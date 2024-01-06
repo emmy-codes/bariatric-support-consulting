@@ -6,7 +6,7 @@ function MyMission() {
                 <div>
                     <div className="about-col3">Image here</div>
                     <div className="about-col4">
-                        Text here<Image />
+                        Text here<img />
                     </div>
                 </div>
         </div>

@@ -7,7 +7,7 @@ function About() {
         <div>
 
                 <div>
-                    <Image src={beforeImg} alt="" />
+                    <img src={beforeImg} alt="" />
                 </div>
                 <div>
                     <div>
@@ -20,7 +20,7 @@ function About() {
                     </div>
                 </div>
                 <div>
-                    <Image src={afterImg} alt="" />
+                    <img src={afterImg} alt="" />
                 </div>
         </div>
     );

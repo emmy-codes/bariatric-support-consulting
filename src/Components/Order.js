@@ -3,7 +3,7 @@
 function Order() {
     return (
         <div className="order-button">
-            <Button>Order</Button>
+            <div>Order</div>
         </div>
     );
 };

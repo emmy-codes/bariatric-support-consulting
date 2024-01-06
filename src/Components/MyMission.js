@@ -3,14 +3,12 @@
 function MyMission() {
     return (
         <div className="my-mission-container">
-            <Container>
-                <Row>
-                    <Col className="about-col3">Image here</Col>
-                    <Col className="about-col4">
+                <div>
+                    <div className="about-col3">Image here</div>
+                    <div className="about-col4">
                         Text here<Image />
-                    </Col>
-                </Row>
-            </Container>
+                    </div>
+                </div>
         </div>
     );
 };

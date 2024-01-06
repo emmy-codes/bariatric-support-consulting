@@ -3,7 +3,7 @@ function Navigation() {
 
     return (
         <>
-            <Nav className="justify-content-end" activeKey="/home">
+            {/* <Nav className="justify-content-end" activeKey="/home">
                 <Nav.Item>
                     <Nav.Link href="#home">Home</Nav.Link>
                 </Nav.Item>
@@ -22,7 +22,7 @@ function Navigation() {
                 <Nav.Item>
                     <Nav.Link href="#login">Members Login</Nav.Link>
                 </Nav.Item>
-            </Nav>
+            </Nav> */}
         </>
     );
 

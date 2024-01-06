@@ -1,4 +1,3 @@
-import 'bootstrap/dist/css/bootstrap.min.css'; 
 import './App.scss';
 import Navigation from '../src/Components/Navigation';
 import HamburgerMenu from '../src/Components/HamburgerMenu';

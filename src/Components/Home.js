@@ -1,4 +1,4 @@
-import { Button, Row, Col, Container } from "react-bootstrap";
+
 import banner from "../media/images/header.jpg"
 
 function Home() {

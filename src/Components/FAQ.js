@@ -1,4 +1,4 @@
-import Accordion from 'react-bootstrap/Accordion';
+
 
 function FAQ() {
     return (

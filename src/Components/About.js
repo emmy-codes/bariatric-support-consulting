@@ -1,4 +1,3 @@
-
 import beforeImg from '../media/images/beforeOp.png';
 import afterImg from '../media/images/3monthsPO.png';
 

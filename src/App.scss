@@ -91,10 +91,12 @@ img {
 /* CTA and order buttons */
 
 .cta-button {
+  position: relative;
   background-color: green;
   width: 25vw;
   height: 5vh;
-  margin: right;
+  align-self: end;
+  margin-right: 10px;
 }
 
 .order-button {
@@ -111,7 +113,7 @@ img {
     background: url("https://images.pexels.com/photos/1128678/pexels-photo-1128678.jpeg") no-repeat;
     background-size: cover;
   }
-  
+
   .home-container {
     max-width: 50vw;
   }

@@ -1,9 +1,9 @@
-
+//  onClick={handleClick}
 
 function Order() {
     return (
         <div className="order-button">
-            <div>Order</div>
+            <button className="order-button">Order</button>
         </div>
     );
 };

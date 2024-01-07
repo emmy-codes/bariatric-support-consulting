@@ -3,10 +3,10 @@ import afterImg from '../media/images/3monthsPO.png';
 
 function About() {
     return (
-        <div>
+        <div id="about-container">
             <h1>About Me</h1>
                 <div>
-                    <img src={beforeImg} alt="" />
+                <img src={beforeImg} alt="" className="before-and-after" />
                 </div>
                 <div>
                     <div>
@@ -19,7 +19,7 @@ function About() {
                     </div>
                 </div>
                 <div>
-                    <img src={afterImg} alt="" />
+                <img src={afterImg} alt="" className="before-and-after" />
                 </div>
         </div>
     );

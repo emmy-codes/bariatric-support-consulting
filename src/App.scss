@@ -54,8 +54,13 @@ img {
 
 /* About */
 
-.about-container {
+.before-and-after {
+  max-width: 80%;
+}
+
+#about-container {
   background-color: rgb(244, 225, 177);
+  min-width: 100vw;
 }
 
 .about-col1 {
@@ -73,6 +78,7 @@ img {
 .about-col4 {
   background-color: rgb(152, 229, 148);
 }
+
 
 /* My Services */
 

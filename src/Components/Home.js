@@ -1,6 +1,3 @@
-
-import banner from "../media/images/header.jpg"
-
 function Home() {
 
     return (

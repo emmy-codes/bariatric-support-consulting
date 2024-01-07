@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  padding: 0 10vw;
+  padding: 0;
   border: none;
 }
 
@@ -25,6 +25,8 @@ img {
 
 /* Websites sections */
 
+/* Home */
+
 .home-header {
   font-weight: 700;
   color: #71B2DE;
@@ -46,9 +48,11 @@ img {
   max-width: 50vw;
 }
 
-.row>* {
-  padding: 0;
-}
+// .row>* {
+//   padding: 0;
+// }
+
+/* About */
 
 .about-container {
   background-color: rgb(244, 225, 177);
@@ -70,6 +74,8 @@ img {
   background-color: rgb(152, 229, 148);
 }
 
+/* My Services */
+
 .my-services-container {
   background-color: powderblue;
 }
@@ -86,6 +92,9 @@ img {
 
 .cta-button {
   background-color: green;
+  width: 25vw;
+  height: 5vh;
+  margin: right;
 }
 
 .order-button {

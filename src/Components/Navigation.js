@@ -2,28 +2,25 @@
 function Navigation() {
 
     return (
-        <>
-            {/* <Nav className="justify-content-end" activeKey="/home">
-                <Nav.Item>
-                    <Nav.Link href="#home">Home</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link href="#about">About</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link href="#my-mission">My Mission</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link href="#my-services">My Services</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link href="#faq">FAQ</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link href="#login">Members Login</Nav.Link>
-                </Nav.Item>
-            </Nav> */}
-        </>
+        <nav className="navbar">
+            <ol>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">My Mission</a>
+                </li>
+                <li>
+                    <a href="#">My Services</a>
+                </li>
+                <li>
+                    <a href="#">User Login</a>
+                </li>
+            </ol>
+        </nav>
     );
 
 };

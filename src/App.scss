@@ -88,20 +88,25 @@ img {
   background-color: powderblue;
 }
 
-.my-mission-container {
+.content-container {
   display: flex;
   position: relative;
   padding: 0 2rem;
   height: 40vh;
-  background: url("./media/images/chopping-board.jpg") no-repeat center center;
+  background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
   flex-direction: column;
   justify-content: center;
 }
 
-.my-mission-container p {
+.content-container p {
   background: rgba(255, 255, 255, 0.7);
   padding: 0.6rem 1rem;
+}
+
+.my-mission-container {
+  background-image: url("./media/images/chopping-board.jpg");
 }
 
 .footer-container {

@@ -4,7 +4,7 @@ import afterImg from '../media/images/3monthsPO.png';
 function About() {
     return (
         <div>
-
+            <h1>About Me</h1>
                 <div>
                     <img src={beforeImg} alt="" />
                 </div>

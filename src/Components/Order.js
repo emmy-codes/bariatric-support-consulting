@@ -2,7 +2,7 @@
 
 function Order() {
     return (
-        <div className="order-button">
+        <div>
             <button className="order-button">Order</button>
         </div>
     );

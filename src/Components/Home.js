@@ -1,3 +1,5 @@
+import CTA from "./CTA";
+
 function Home() {
 
     return (
@@ -8,7 +10,7 @@ function Home() {
                     Quisque velit nulla, dapibus eget enim sed, cursus eleifend tortor.
                     Sed ornare nunc sed elementum pulvinar. Nunc massa est, fringilla id laoreet quis, ornare sed lacus.
                 </p>
-                <button className="cta-button">Learn More</button>
+                <CTA />
             </div>
         </div>
     );

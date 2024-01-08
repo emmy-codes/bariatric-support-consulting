@@ -8,6 +8,12 @@ img {
   max-width: -webkit-fill-available;
 }
 
+h3 {
+  font-style: italic;
+  font-weight: 400;
+  margin: 5px;
+}
+
 .App {
   text-align: center;
 }
@@ -56,10 +62,11 @@ img {
 
 .before-and-after {
   max-width: 80%;
+  max-height: 40vh;
 }
 
 #about-container {
-  background-color: rgb(244, 225, 177);
+  background-color: rgb(117, 24, 66);
   min-width: 100vw;
   display: flex;
   flex-direction: column;
@@ -112,7 +119,7 @@ img {
   justify-content: center;
 }
 
-.content-container p {
+.content-text {
   background: rgba(255, 255, 255, 0.7);
   padding: 0.6rem 1rem;
 }

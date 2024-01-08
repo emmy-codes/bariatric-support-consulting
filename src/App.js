@@ -20,8 +20,6 @@ function App() {
       <About />
       <MyMission />
       <MyServices />
-      <CTA />
-      <Order />
       <FAQ />
       <Footer />
     </section>

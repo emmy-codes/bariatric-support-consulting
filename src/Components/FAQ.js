@@ -3,7 +3,7 @@
 function FAQ() {
     return (
         <div>
-            <div>What services do you offer?</div>
+            <h2>What services do you offer?</h2>
             <p>
                 I provide comprehensive support services, including personalized nutritional guidance, emotional counseling, and post-surgery wellness programs to help you achieve and maintain a healthier lifestyle.
             </p>

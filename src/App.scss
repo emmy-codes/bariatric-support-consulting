@@ -14,6 +14,10 @@ h3 {
   margin: 5px;
 }
 
+li {
+  list-style: none;
+}
+
 .App {
   text-align: center;
 }
@@ -103,7 +107,6 @@ h3 {
 }
 
 .my-services-container ol li {
-  list-style: none;
   border: black 2px solid;
 }
 
@@ -138,10 +141,6 @@ h3 {
   background-image: url("./media/images/chopping-board.jpg");
 }
 
-.footer-container {
-  background-color: rgb(101, 101, 212);
-}
-
 /* CTA and order buttons */
 
 .cta-button {
@@ -172,10 +171,35 @@ nav.navbar ol {
 }
 
 nav.navbar ol li {
-  list-style: none;
   padding-left: 1rem;
 }
 
+/* Footer */
+
+.footer-container {
+  background-color: rgb(101, 101, 212);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-svgs {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5rem;
+  margin: 0;
+}
+
+.footer-svgs-imgs {
+  max-width: 2rem;
+  border-radius: 25px;
+}
+
+.footer-svgs li p {
+  margin: 0;
+  font-size: small;
+  padding-right: 0.5rem;
+}
 
 /* Media queries tablet breakpoints */
 
